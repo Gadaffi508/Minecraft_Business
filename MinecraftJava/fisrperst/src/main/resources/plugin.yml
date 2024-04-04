@@ -1,0 +1,4 @@
+name: fisrperst
+version: '${project.version}'
+main: org.example.firstplugin.fisrperst.Fisrperst
+api-version: '1.20'
