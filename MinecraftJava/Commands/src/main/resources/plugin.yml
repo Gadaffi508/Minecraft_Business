@@ -15,3 +15,21 @@ commands:
   feed:
     description: Feed yourself without eating
     usage: /<command>
+  Test:
+    description: Test
+    permission:  permissions.test
+    permission-message: You don't have permission to use this
+    usage: /<command>
+  permissions:
+    permission.test:
+      description: Allows someone to run the /test command
+      default: op
+      children:
+        permissions.explode: true
+        permissions.kill: true
+    permission.blockbreak:
+      description: Allows someone to use /blockbreak
+      default: true
+      children:
+        permissions.explode: true
+        permissions.kill: true
