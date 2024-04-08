@@ -1,0 +1,8 @@
+name: Commands
+version: '${project.version}'
+main: org.example.commands.commands.Commands
+api-version: '1.20'
+commands:
+  die:
+    description: An easy way to kill
+    usage: /<command>
