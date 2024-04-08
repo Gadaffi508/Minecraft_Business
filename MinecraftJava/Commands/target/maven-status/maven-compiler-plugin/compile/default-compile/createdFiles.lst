@@ -1,2 +1,4 @@
+org\example\commands\commands\CommandsPackage\GodCommands.class
 org\example\commands\commands\CommandsPackage\FırstCMD.class
+org\example\commands\commands\CommandsPackage\FreedCommand.class
 org\example\commands\commands\Commands.class

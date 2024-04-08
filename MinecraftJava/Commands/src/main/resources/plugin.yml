@@ -6,3 +6,12 @@ commands:
   die:
     description: An easy way to kill
     usage: /<command>
+  god:
+    description: Become invisible
+    usage: /<command>
+    aliases:
+      -kodymode
+      -pro
+  feed:
+    description: Feed yourself without eating
+    usage: /<command>
