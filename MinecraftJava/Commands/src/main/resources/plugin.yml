@@ -33,3 +33,9 @@ commands:
       children:
         permissions.explode: true
         permissions.kill: true
+  setspawn:
+    description: Set the spawn
+    usage: /<command>
+  spawn:
+    description: Spawns you at spawn point
+    usage: /<command>

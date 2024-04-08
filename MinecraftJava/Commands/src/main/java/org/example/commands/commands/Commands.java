@@ -1,6 +1,8 @@
 package org.example.commands.commands;
 
+import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.example.commands.commands.CommandsPackage.FartCommand;
 import org.example.commands.commands.CommandsPackage.FreedCommand;
 import org.example.commands.commands.CommandsPackage.GodCommands;
 import org.example.commands.commands.ListenerPackgae.BlockBreakListener;
@@ -16,6 +18,8 @@ public final class Commands extends JavaPlugin
 
         getServer().getPluginManager().registerEvents(new DeatListener(this), this);
         getServer().getPluginManager().registerEvents(new BlockBreakListener(), this);
+
+        getServer().getPluginManager().registerEvents((Listener) new FartCommand(), this);
     }
 
     @Override
