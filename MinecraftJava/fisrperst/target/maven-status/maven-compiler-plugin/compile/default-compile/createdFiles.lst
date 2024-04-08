@@ -1,1 +1,4 @@
 org\example\firstplugin\fisrperst\Fisrperst.class
+org\example\firstplugin\fisrperst\Listener\JoinLeaveListener.class
+org\example\firstplugin\fisrperst\Listener\XPBattleBreakListener.class
+org\example\firstplugin\fisrperst\Listener\ShearSheepListener.class
