@@ -2,3 +2,10 @@ spawn:
   x: 69
   y: 69
   z: 69
+
+join-message: 'Welcome back to the server! , %player% '
+feed-players: true
+foods:
+  - 'Pizza'
+  - 'Grape'
+  - 'Apple'

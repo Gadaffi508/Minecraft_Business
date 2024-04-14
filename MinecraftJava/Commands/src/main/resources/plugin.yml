@@ -39,3 +39,12 @@ commands:
   spawn:
     description: Spawns you at spawn point
     usage: /<command>
+  setmessage:
+    description: Sets the join message for the server
+    usage: /<command>
+  fart:
+    description: Oopsies i did a stinky
+    usage: /<command>
+  menu:
+    description: The most awesome plugin
+    usage: /<command>

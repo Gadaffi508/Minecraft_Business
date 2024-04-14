@@ -20,3 +20,31 @@ commands:
     permission:  permissions.test
     permission-message: You don't have permission to use this
     usage: /<command>
+  permissions:
+    permission.test:
+      description: Allows someone to run the /test command
+      default: op
+      children:
+        permissions.explode: true
+        permissions.kill: true
+    permission.blockbreak:
+      description: Allows someone to use /blockbreak
+      default: true
+      children:
+        permissions.explode: true
+        permissions.kill: true
+  setspawn:
+    description: Set the spawn
+    usage: /<command>
+  spawn:
+    description: Spawns you at spawn point
+    usage: /<command>
+  setmessage:
+    description: Sets the join message for the server
+    usage: /<command>
+  fart:
+    description: Oopsies i did a stinky
+    usage: /<command>
+  menu:
+    description: The most awesome plugin
+    usage: /<command>
