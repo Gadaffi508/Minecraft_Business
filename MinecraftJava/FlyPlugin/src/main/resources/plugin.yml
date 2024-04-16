@@ -1,0 +1,8 @@
+name: FlyPlugin
+version: '${project.version}'
+main: org.example.flyplugin.flyplugin.FlyPlugin
+api-version: '1.20'
+commands:
+  fly:
+    description: 'fly command'
+    usage: fly /<command>

@@ -1,0 +1,8 @@
+name: TeleportBow
+version: '${project.version}'
+main: org.example.teleportbow.teleportbow.TeleportBow
+api-version: '1.20'
+commands:
+  teleport_bow:
+    description: Teleport with bow
+    usage: teleport_bow /<command>
