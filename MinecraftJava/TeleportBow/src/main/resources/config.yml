@@ -1,0 +1,5 @@
+give-on-join: true
+
+bow-name: 'Teleport Bow'
+bow-description: 'Shoot your bow to teleport'
+teleport-message: 'Swoosh!'

@@ -8,10 +8,18 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
+import org.example.teleportbow.teleportbow.TeleportBow;
 import org.example.teleportbow.teleportbow.utility.BowUtils;
 import org.jetbrains.annotations.NotNull;
 
 public class GiveCommand implements CommandExecutor {
+    private final BowUtils utils;
+    private final TeleportBow ınstance;
+
+    public GiveCommand(TeleportBow ınstance) {
+        this.utils = new BowUtils(ınstance);
+        this.ınstance = ınstance;
+    }
 
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String s, @NotNull String[] args) {
@@ -38,7 +46,7 @@ public class GiveCommand implements CommandExecutor {
     }
 
     private void ItemMethod(Player player, String message) {
-        ItemStack bow = BowUtils.createTeleportBow();
+        ItemStack bow = utils.createTeleportBow();
         player.getInventory().addItem(bow);
         player.getInventory().addItem(new ItemStack(Material.ARROW, 1));
 
