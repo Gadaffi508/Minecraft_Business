@@ -1,0 +1,9 @@
+name: ArmorStands
+version: '${project.version}'
+main: org.example.armorstands.armorstands.ArmorStands
+api-version: '1.20'
+commands:
+  armor-stand:
+    description: 'Spawn an armor stand'
+    aliases:
+      - 'armor-stands'
